@@ -113,5 +113,5 @@ useFrame(() => {
 
 ---
 <div align="center">
-  <i>Developed with ❤️ by Mohammed</i>
+  <i>Developed by Mohammed Ezzaldeen | Email: Marco9249@users.noreply.github.com</i>
 </div>
