@@ -12,8 +12,8 @@ echo ============================================
 echo.
 echo Starting local server on port 5173...
 
-:: Open the browser with the correct subpath
-start http://localhost:5173/Solar-SCADA-World/
+:: Open the browser with the root path
+start http://localhost:5173/
 
 :: Start the Vite server
 npm run dev

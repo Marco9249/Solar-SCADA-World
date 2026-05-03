@@ -8,11 +8,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  base: "/Solar-SCADA-World/",
   plugins: [react(), tailwindcss()],
   server: {
     port: 5173,
     strictPort: true,
+    host: true
   },
   resolve: {
     alias: {
