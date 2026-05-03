@@ -10,13 +10,12 @@ echo ============================================
 echo   Solar SCADA World - Offline Mode
 echo ============================================
 echo.
-echo Starting local server... please wait...
+echo Starting local server on port 5173...
 
-:: Open the browser immediately (Vite will load when ready)
-start http://localhost:5173/
+:: Open the browser with the correct subpath
+start http://localhost:5173/Solar-SCADA-World/
 
-:: Start the Vite server directly in this window
+:: Start the Vite server
 npm run dev
 
-:: If the server crashes or stops, keep the window open to see the error
 pause
